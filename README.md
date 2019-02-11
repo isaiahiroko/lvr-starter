@@ -33,4 +33,4 @@ $ composer install
 
 ## [Usage Documentation at Laravel](http://laravel.com/)
 
-## [Licence](./LICENCE.md)
+## [Licence](./LICENSE.md)
