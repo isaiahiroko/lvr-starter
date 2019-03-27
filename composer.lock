@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8c08e241207d8a0b2a47e63d305e5fa",
+    "content-hash": "8fd4859f7261476d7b6dafe536dc0d14",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -771,6 +771,50 @@
                 "url"
             ],
             "time": "2018-12-04T20:46:45+00:00"
+        },
+        {
+            "name": "isaiahiroko/lvr-state",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/isaiahiroko/lvr-state.git",
+                "reference": "5b710e3306f7dfcd650d8ccabf1382a48b05826c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/isaiahiroko/lvr-state/zipball/5b710e3306f7dfcd650d8ccabf1382a48b05826c",
+                "reference": "5b710e3306f7dfcd650d8ccabf1382a48b05826c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.7.*",
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Isaiahiroko\\LvrState\\Provider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Isaiahiroko\\LvrState\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Isaiah Iroko",
+                    "email": "isaiahiroko@gmail.com"
+                }
+            ],
+            "description": "A single-source-of-truth-like state management library for Laravel applications",
+            "time": "2019-02-13T07:45:02+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -5565,7 +5609,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "isaiahiroko/lvr-state": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

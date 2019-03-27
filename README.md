@@ -12,6 +12,7 @@ A starter repo for API projects, containing must-have packages versioned to work
     "laravel/passport": "^7.1",
     "laravel/tinker": "^1.0",
     "webpatser/laravel-uuid": "^3.0"
+    "isaiahiroko/lvr-state": "dev-master",
 ```
 
 ## Dev Dependencies
